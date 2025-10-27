@@ -5,9 +5,9 @@
 ---
 
 ## 1. プロジェクトセットアップ
-- [ ] **開発環境の初期化**
-  - [ ] `npm create vite@latest` で Svelte + TypeScript テンプレートを生成し、`strict: true` を tsconfig で確認。
-  - [ ] エイリアス設定（`$lib`, `$components` など）を `tsconfig.json` と `vite.config.ts` 双方で統一。
+- [x] **開発環境の初期化**
+  - [x] `npm create vite@latest` で Svelte + TypeScript テンプレートを生成し、`strict: true` を tsconfig で確認。（※ ネットワーク制約のためテンプレート構成を手動復元）
+  - [x] エイリアス設定（`$lib`, `$components` など）を `tsconfig.json` と `vite.config.ts` 双方で統一。
 - [ ] **依存パッケージ導入**
   - [ ] UI/スタイル: `tailwindcss`, `postcss`, `autoprefixer`, `flowbite-svelte`, `@tailwindcss/forms`, `@heroicons/svelte`。
   - [ ] 日時・繰り返し: `@js-temporal/polyfill`, `rrule`, `@date-fns/tz`（タイムゾーンリスト用）。
